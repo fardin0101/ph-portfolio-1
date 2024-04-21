@@ -10,7 +10,7 @@ body{
     height: 64px;
     color: white;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 nav{
@@ -38,4 +38,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: rgb(71, 71, 71);
+}
+header{
+    background: rgb(255, 248, 243);
 }
