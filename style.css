@@ -43,9 +43,9 @@ nav a {
 }
 header{
     background: rgb(255, 248, 243);
-    background-image: url("images/header_bg.png");
+    background-image: url("images/header_bg.png") ,url("images/Developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right , top left;
 }
 
 
@@ -76,4 +76,17 @@ header{
     font-size: 18px;
     font-weight: 400;  
 }
+/* main section */
+.main{
+        max-width: 1140px;
+        margin: auto;
+        align-items: center;
+    }
+.about-section{
+    background-color: FFF8F3;
+    height:288px ;
+    width:827px;
+    margin: auto;
+    text-align: center;
     
+}
